@@ -1,0 +1,1 @@
+번역 중 오류 발생: can only concatenate str (not "NoneType") to str

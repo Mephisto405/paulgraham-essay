@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>폴 그레이엄 에세이</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- marked.js CDN: Markdown을 HTML로 변환 -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-links">
+            <a href="index.html">← 목록으로 돌아가기</a>
+        </div>
+        <main id="content">
+            <p>에세이를 불러오는 중...</p>
+        </main>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const contentElement = document.getElementById('content');
+            
+            // URL에서 'essay' 파라미터 값을 가져옵니다. (예: ?essay=avg)
+            const urlParams = new URLSearchParams(window.location.search);
+            const essayName = urlParams.get('essay');
+
+            if (essayName) {
+                // 마크다운 파일 경로를 구성합니다.
+                const mdFile = `essays/${essayName}.md`;
+                
+                // 마크다운 파일을 fetch API로 가져옵니다.
+                fetch(mdFile)
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('파일을 불러오는 데 실패했습니다.');
+                        }
+                        return response.text();
+                    })
+                    .then(text => {
+                        // 가져온 마크다운 텍스트를 HTML로 변환합니다.
+                        contentElement.innerHTML = marked.parse(text);
+                        // 페이지 제목을 문서의 h1 태그 내용으로 설정합니다.
+                        const h1 = contentElement.querySelector('h1');
+                        if (h1) {
+                            document.title = h1.textContent;
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error fetching essay:', error);
+                        contentElement.innerHTML = '<p>에세이를 불러오는 중 오류가 발생했습니다. 파일이 존재하고 경로가 올바른지 확인해주세요.</p>';
+                    });
+            } else {
+                contentElement.innerHTML = '<p>표시할 에세이가 지정되지 않았습니다. 목록에서 에세이를 선택해주세요.</p>';
+            }
+        });
+    </script>
+</body>
+</html>
