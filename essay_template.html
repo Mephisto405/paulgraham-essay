@@ -7,6 +7,16 @@
     <link rel="stylesheet" href="style.css">
     <!-- marked.js CDN: Markdown을 HTML로 변환 -->
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0NXVCDMDN2"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-0NXVCDMDN2');
+    </script>
 </head>
 <body>
     <div class="container">
@@ -45,6 +55,13 @@
                         const h1 = contentElement.querySelector('h1');
                         if (h1) {
                             document.title = h1.textContent;
+
+                            if (typeof gtag === 'function') {
+                                gtag('event', 'page_view', {
+                                    page_title: pageTitle,
+                                    page_path: `/essays/${essayName}.html`
+                                });
+                            }
                         }
                     })
                     .catch(error => {
