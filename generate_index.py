@@ -62,6 +62,16 @@ def create_index_html(essays_info, essays_dir="./essays"):
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>폴 그레이엄 에세이 (한국어 번역)</title>
     <link rel="stylesheet" href="style.css">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0NXVCDMDN2"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-0NXVCDMDN2');
+    </script>
 </head>
 <body>
     <div class="container">
@@ -70,6 +80,15 @@ def create_index_html(essays_info, essays_dir="./essays"):
             <p>이 페이지는 <a href="https://www.paulgraham.com/articles.html" target="_blank" rel="noopener noreferrer">폴 그레이엄의 에세이</a>를 Gemini API를 이용해 한국어로 번역한 모음입니다. 목록은 원본 사이트의 순서를 따릅니다.</p>
         </header>
         <main>
+"""
+
+    # 추천 에세이의 번역된 제목 가져오기
+    title_greatwork = get_translated_title('greatwork', 'How to Do Great Work', essays_dir)
+    title_kids = get_translated_title('kids', 'Having Kids', essays_dir)
+    title_selfindulgence = get_translated_title('selfindulgence', 'How to Lose Time and Money', essays_dir)
+    
+    # 추천 에세이 문구 추가
+    html_content += f"""            <p class="recommendation">무엇부터 읽어야 할지 고민된다면, <a href="essay_template.html?essay=greatwork">{title_greatwork}</a>, <a href="essay_template.html?essay=kids">{title_kids}</a>, 또는 <a href="essay_template.html?essay=selfindulgence">{title_selfindulgence}</a>를 먼저 읽어보세요.</p>
             <ul class="essay-list">
 """
 
