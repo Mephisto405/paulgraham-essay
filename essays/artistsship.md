@@ -1,4 +1,4 @@
-# 아티스트는 완성한다(Artists Ship)의 다른 절반 (The Other Half of "Artists Ship")
+# "아티스트는 완성한다"의 다른 절반 (The Other Half of "Artists Ship")
 
 2008년 11월
 

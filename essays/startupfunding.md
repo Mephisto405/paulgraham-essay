@@ -1,4 +1,5 @@
 # 스타트업 자금 조달 방법 (How to Fund a Startup)
+
 2005년 11월
 
 스타트업을 시작하고 싶으신가요? Y Combinator에서 자금을 지원받으세요.

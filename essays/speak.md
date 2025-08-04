@@ -1,5 +1,3 @@
-네, 폴 그레이엄의 에세이 'Writing and Speaking'을 한국 문화권 독자들이 읽기 쉽고 자연스럽게 번역해 드리겠습니다.
-
 # 글쓰기와 말하기 (Writing and Speaking)
 
 2012년 3월

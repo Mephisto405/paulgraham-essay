@@ -1,4 +1,4 @@
-# 왓 메이드 리스프 디퍼런트 (What Made Lisp Different)
+# Lisp 언어는 무엇이 다른가? (What Made Lisp Different)
 
 2001년 12월 (2002년 5월 개정)
 

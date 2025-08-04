@@ -1,8 +1,6 @@
 # 유기적인 스타트업 아이디어 (Organic Startup Ideas)
 
-스타트업을 시작하고 싶으신가요?
-
-Y Combinator에서 투자를 받으세요.
+스타트업을 시작하고 싶으신가요? Y Combinator에서 투자를 받으세요.
 
 2010년 4월
 

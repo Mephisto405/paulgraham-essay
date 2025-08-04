@@ -1,6 +1,7 @@
 # 끈질기게 수완 좋은 (Relentlessly Resourceful)
 
 스타트업을 시작하고 싶으신가요? Y Combinator에서 투자를 받아보세요.
+
 2009년 3월
 
 며칠 전, 저는 좋은 스타트업 창업자의 자질을 마침내 두 단어로 정리할 수 있게 되었습니다: '끈질기게 수완 좋은 (relentlessly resourceful)'.

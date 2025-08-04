@@ -1,4 +1,4 @@
-# A Local Revolution? (A Local Revolution?)
+# 지역적 혁신? (A Local Revolution?)
 
 2009년 4월
 

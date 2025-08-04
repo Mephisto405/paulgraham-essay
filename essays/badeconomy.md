@@ -1,7 +1,6 @@
 # 나쁜 경제 상황에서 스타트업을 시작해야 하는 이유 (Why to Start a Startup in a Bad Economy)
 
-스타트업을 시작하고 싶으신가요? 
-Y Combinator의 지원을 받아보세요.
+스타트업을 시작하고 싶으신가요? Y Combinator의 지원을 받아보세요.
 
 2008년 10월
 

@@ -1,4 +1,5 @@
 # 기업 개발팀과는 이야기하지 마세요 (Don't Talk to Corp Dev)
+
 2015년 1월
 
 기업 개발팀(Corporate Development), 즉 Corp Dev는 다른 기업을 인수하는 회사 내 부서입니다. 만약 Corp Dev 소속 사람과 이야기하고 있다면, 당신이 그것을 알았든 몰랐든 바로 그 이유 때문일 것입니다.

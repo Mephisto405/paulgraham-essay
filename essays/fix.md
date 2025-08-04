@@ -6,7 +6,7 @@
 
 **파스칼(Pascal):** 알골은 충분한 데이터 타입(data type)을 가지고 있지 않다.
 
-****모듈라(Modula):** 파스칼은 시스템 프로그래밍(systems programming)에 쓰기엔 너무 허약하다.
+**모듈라(Modula):** 파스칼은 시스템 프로그래밍(systems programming)에 쓰기엔 너무 허약하다.
 
 **시뮬라(Simula):** 알골은 시뮬레이션(simulation)에 충분히 좋지 않다.
 

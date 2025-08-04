@@ -1,7 +1,6 @@
 # 하드웨어 르네상스 (The Hardware Renaissance)
 
-스타트업을 시작하고 싶나요?
-Y Combinator로부터 투자를 받으세요.
+스타트업을 시작하고 싶나요? Y Combinator로부터 투자를 받으세요.
 
 2012년 10월
 

@@ -1,6 +1,6 @@
 # 투자자 집단 심리 (Investor Herd Dynamics)
 
-Y 컴비네이터(Y Combinator)에서 스타트업 투자를 받고 싶으신가요?
+스타트업을 시작하고 싶으신가요? Y Combinator에서 투자를 받으세요.
 
 2013년 8월
 

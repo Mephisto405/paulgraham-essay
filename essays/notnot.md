@@ -1,7 +1,7 @@
 # 스타트업을 시작해야 하는 이유 (Why to Not Not Start a Startup)
 
-스타트업을 시작하고 싶으신가요?
-Y Combinator의 투자를 받으세요.
+스타트업을 시작하고 싶으신가요? Y Combinator의 투자를 받으세요.
+
 2007년 3월
 
 (본 에세이는 2007년 스타트업 스쿨(Startup School)과 버클리 CSUA 강연 내용을 바탕으로 작성되었습니다.)
