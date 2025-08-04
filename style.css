@@ -24,18 +24,9 @@ header h1 {
     margin: 0;
 }
 
-header a,
-.recommendation a,
-.essay-list a {
+header a {
     color: #007bff;
     text-decoration: none;
-    transition: color 0.2s, text-decoration 0.2s;
-}
-
-header a:hover,
-.recommendation a:hover,
-.essay-list a:hover {
-    text-decoration: underline;
 }
 
 .essay-list {
@@ -47,12 +38,19 @@ header a:hover,
     margin-bottom: 12px;
 }
 
-.essay-list a {
-    font-size: 1.1em;
+.essay-list a,
+.recommendation a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.essay-list a:hover,
+.recommendation a:hover {
+    color: #007bff;
 }
 
 .recommendation {
-    font-size: 1.1em;
     padding: 15px;
     background-color: #f8f9fa;
     border-left: 4px solid #007bff;
