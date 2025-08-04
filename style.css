@@ -24,18 +24,23 @@ header h1 {
     margin: 0;
 }
 
-header a {
+header a,
+.recommendation a,
+.essay-list a {
     color: #007bff;
     text-decoration: none;
+    transition: color 0.2s, text-decoration 0.2s;
 }
 
-header a:hover {
+header a:hover,
+.recommendation a:hover,
+.essay-list a:hover {
     text-decoration: underline;
 }
 
 .essay-list {
-    list-style-type: none;
-    padding: 0;
+    list-style-type: disc;
+    padding-left: 20px;
 }
 
 .essay-list li {
@@ -44,13 +49,14 @@ header a:hover {
 
 .essay-list a {
     font-size: 1.1em;
-    color: #333;
-    text-decoration: none;
-    transition: color 0.2s;
 }
 
-.essay-list a:hover {
-    color: #007bff;
+.recommendation {
+    font-size: 1.1em;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-left: 4px solid #007bff;
+    margin-bottom: 30px;
 }
 
 footer {
@@ -62,7 +68,6 @@ footer {
     font-size: 0.9em;
 }
 
-/* 에세이 템플릿 스타일 */
 .nav-links {
     margin-bottom: 20px;
 }
