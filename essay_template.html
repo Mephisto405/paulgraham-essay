@@ -50,12 +50,12 @@
                     })
                     .then(text => {
                         // 가져온 마크다운 텍스트를 HTML로 변환합니다.
-                        const pageTitle = h1.textContent;
-                        document.title = pageTitle;
+                        contentElement.innerHTML = marked.parse(text);
                         // 페이지 제목을 문서의 h1 태그 내용으로 설정합니다.
                         const h1 = contentElement.querySelector('h1');
                         if (h1) {
-                            document.title = h1.textContent;
+                            const pageTitle = h1.textContent;
+                            document.title = pageTitle;
 
                             if (typeof gtag === 'function') {
                                 gtag('event', 'page_view', {
