@@ -77,7 +77,7 @@ def create_index_html(essays_info, essays_dir="./essays"):
     <div class="container">
         <header>
             <h1>폴 그레이엄 에세이 (한국어 번역)</h1>
-            <p>이 페이지는 <a href="https://www.paulgraham.com/articles.html" target="_blank" rel="noopener noreferrer">폴 그레이엄의 에세이</a>를 Gemini API를 이용해 한국어로 번역한 모음입니다. 목록은 원본 사이트의 순서를 따릅니다.</p>
+            <p>이 페이지는 <a href="https://www.paulgraham.com/articles.html" target="_blank" rel="noopener noreferrer">폴 그레이엄의 에세이</a>를 한국어로 번역한 모음입니다. 목록은 원본 사이트의 순서를 따릅니다. 번역에 오류가 있다면 <a href="mailto:ciy405x@gmail.com?subject=폴%20그레이엄%20번역%20문의:%20제목&body=내용">이메일</a>로 알려주세요.</p>
         </header>
         <main>
 """
@@ -102,7 +102,7 @@ def create_index_html(essays_info, essays_dir="./essays"):
     html_content += """            </ul>
         </main>
         <footer>
-            <p>Generated for educational purposes. All original content by Paul Graham.</p>
+            <p>All original content by Paul Graham.</p>
         </footer>
     </div>
 </body>

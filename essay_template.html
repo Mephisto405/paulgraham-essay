@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>폴 그레이엄 에세이</title>
     <link rel="stylesheet" href="style.css">
+
     <!-- marked.js CDN: Markdown을 HTML로 변환 -->
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/markdown-it/dist/markdown-it.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/markdown-it-footnote/dist/markdown-it-footnote.min.js"></script>
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0NXVCDMDN2"></script>
@@ -32,15 +34,14 @@
         document.addEventListener('DOMContentLoaded', function() {
             const contentElement = document.getElementById('content');
             
-            // URL에서 'essay' 파라미터 값을 가져옵니다. (예: ?essay=avg)
+            const md = window.markdownit().use(window.markdownitFootnote);
+            
             const urlParams = new URLSearchParams(window.location.search);
             const essayName = urlParams.get('essay');
 
             if (essayName) {
-                // 마크다운 파일 경로를 구성합니다.
                 const mdFile = `essays/${essayName}.md`;
                 
-                // 마크다운 파일을 fetch API로 가져옵니다.
                 fetch(mdFile)
                     .then(response => {
                         if (!response.ok) {
@@ -49,9 +50,8 @@
                         return response.text();
                     })
                     .then(text => {
-                        // 가져온 마크다운 텍스트를 HTML로 변환합니다.
-                        contentElement.innerHTML = marked.parse(text);
-                        // 페이지 제목을 문서의 h1 태그 내용으로 설정합니다.
+                        contentElement.innerHTML = md.render(text);
+                        
                         const h1 = contentElement.querySelector('h1');
                         if (h1) {
                             const pageTitle = h1.textContent;
