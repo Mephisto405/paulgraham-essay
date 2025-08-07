@@ -294,9 +294,8 @@
 
 착하게 지내고, 몸조심하고, 길을 벗어나지 마세요.
 
----
+## 감사의 말
 
-감사의 말
 Slava Akhmechet, Sam Altman, Nate Blecharczyk, Adora Cheung, Bill Clerico, John Collison, Patrick Collison, Parker Conrad, Ron Conway, Travis Deyle, Jason Freedman, Joe Gebbia, Mattan Griffel, Kevin Hale, Jacob Heller, Ian Hogarth, Justin Kan, Professor Moriarty, Nikhil Nirmel, David Petersen, Geoff Ralston, Joshua Reeves, Yuri Sagalov, Emmett Shear, Rajat Suri, Garry Tan, Nick Tomarello 님께 이 글의 초안을 읽어주신 것에 대해 감사드립니다.
 
 [^1]: 최악의 폭발은 유망해 보이지 않는 스타트업이 평범한 투자자를 만났을 때 일어납니다. 좋은 투자자들은 스타트업을 희망 고문하지 않습니다. 그들의 평판은 너무나 소중합니다. 그리고 유망해 보이는 스타트업은 보통 좋은 투자자들로부터 충분한 돈을 얻을 수 있어서 평범한 투자자들과 이야기할 필요가 없습니다. 평범한 투자자들로부터 돈을 받아야 하는 것은 바로 유망해 보이지 않는 스타트업들입니다. 그리고 이 투자자들이 변덕을 부릴 때 특히 해로운데, 왜냐하면 유망해 보이지 않는 스타트업들은 보통 돈이 더 절실하기 때문입니다. (유망해 보이지 않는 모든 스타트업이 나쁜 결과를 내는 것은 아닙니다. 일부는 단지 현재 스타트업 유행을 따르지 않는다는 의미에서 미운 오리 새끼일 뿐입니다.)

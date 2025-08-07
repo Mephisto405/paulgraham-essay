@@ -1,4 +1,4 @@
-# 무엇이 버블이 맞혔는가 (What the Bubble Got Right)
+# 버블이 옳았던 점 (What the Bubble Got Right)
 
 2004년 9월
 이 에세이는 ICFP 2004에서 초청 연설한 내용을 바탕으로 작성되었습니다.

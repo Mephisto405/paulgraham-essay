@@ -92,8 +92,6 @@
 
 당신이 진실이라고 알고 있는 것을 말한다면, 당신은 그것을 말할 때 자신감 있게 보일 것입니다. 반대로, 피칭이 당신을 헛소리로 이끌게 두지 마세요. 진실의 영역에 머무는 한, 당신은 강합니다. 진실을 좋은 것으로 만드세요. 그런 다음 그냥 말하면 됩니다.
 
----
-
 이 글의 초안을 읽어준 마크 앤드리슨(Marc Andreessen), 샘 알트만(Sam Altman), 패트릭 콜리슨(Patrick Collison), 론 콘웨이(Ron Conway), 크리스 딕슨(Chris Dixon), 알프레드 린(Alfred Lin), 벤 호로위츠(Ben Horowitz), 스티브 허프만(Steve Huffman), 제시카 리빙스턴(Jessica Livingston), 그렉 맥카두(Greg Mcadoo), 앤드류 메이슨(Andrew Mason), 제프 랄스톤(Geoff Ralston), 유리 사갈로프(Yuri Sagalov), 에멧 쉬어(Emmett Shear), 라자트 수리(Rajat Suri), 게리 탄(Garry Tan), 알버트 웽거(Albert Wenger), 프레드 윌슨(Fred Wilson), 카사르 유니스(Qasar Younis)에게 감사합니다.
 
 [^1]: 이 숫자가 불변이라고 믿을 이유는 없습니다. 사실 Y Combinator에서는 그렇지 않았더라면 스타트업을 시작하지 않았을 사람들을 격려함으로써 이 숫자를 늘리는 것이 우리의 명시적인 목표입니다.
