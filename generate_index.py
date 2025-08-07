@@ -61,6 +61,7 @@ def create_index_html(essays_info, essays_dir="./essays"):
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>폴 그레이엄 에세이 (한국어 번역)</title>
+    <link rel="icon" type="image/jpeg" href="paul-graham.jpg">
     <link rel="stylesheet" href="style.css">
 
     <!-- Google tag (gtag.js) -->
