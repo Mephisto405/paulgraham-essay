@@ -17,5 +17,5 @@ McCarthy가 발견한 것을 컴퓨터 역사에서의 이정표로서뿐만 아
 Lisp의 특이한 점, 사실상 Lisp를 정의하는 특성은 Lisp가 자기 자신으로 작성될 수 있다는 것입니다. McCarthy가 이것으로 무엇을 의미했는지 이해하기 위해, 그의 수학적 표기법을 실행되는 커먼 리스프(Common Lisp) 코드로 변환하여 그의 단계를 따라가 보겠습니다.
 
 - [Complete Article (Postscript)](https://sep.turbifycdn.com/ty/cdn/paulgraham/jmc.ps?t=1688221954&)
-- [What Made Lisp Different](https://mephisto405.github.io/paulgraham-essay/essay_template.html?essay=diff)
+- [What Made Lisp Different](essay_template.html?essay=diff)
 - [The Code](https://sep.turbifycdn.com/ty/cdn/paulgraham/jmc.lisp?t=1688221954&)

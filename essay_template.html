@@ -4,6 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>폴 그레이엄 에세이</title>
+    
+    <!-- Open Graph 메타 태그 (동적으로 업데이트됨) -->
+    <meta property="og:title" content="폴 그레이엄 에세이" id="og-title">
+    <meta property="og:description" content="폴 그레이엄의 에세이를 한국어로 읽어보세요." id="og-description">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="" id="og-url">
+    <meta property="og:image" content="paul-graham.jpg">
+    <meta property="og:site_name" content="폴 그레이엄 에세이">
+    
+    <!-- Twitter Card 메타 태그 -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="폴 그레이엄 에세이" id="twitter-title">
+    <meta name="twitter:description" content="폴 그레이엄의 에세이를 한국어로 읽어보세요." id="twitter-description">
+    <meta name="twitter:image" content="paul-graham.jpg">
+    
     <link rel="icon" type="image/jpeg" href="paul-graham.jpg">
     <link rel="stylesheet" href="style.css">
 
@@ -57,6 +72,19 @@
                         if (h1) {
                             const pageTitle = h1.textContent;
                             document.title = pageTitle;
+                            
+                            // Open Graph 메타 태그 업데이트
+                            const ogTitle = document.getElementById('og-title');
+                            const ogDescription = document.getElementById('og-description');
+                            const ogUrl = document.getElementById('og-url');
+                            const twitterTitle = document.getElementById('twitter-title');
+                            const twitterDescription = document.getElementById('twitter-description');
+                            
+                            if (ogTitle) ogTitle.setAttribute('content', pageTitle);
+                            if (ogDescription) ogDescription.setAttribute('content', `폴 그레이엄의 "${pageTitle}" 에세이를 한국어로 읽어보세요.`);
+                            if (ogUrl) ogUrl.setAttribute('content', window.location.href);
+                            if (twitterTitle) twitterTitle.setAttribute('content', pageTitle);
+                            if (twitterDescription) twitterDescription.setAttribute('content', `폴 그레이엄의 "${pageTitle}" 에세이를 한국어로 읽어보세요.`);
 
                             if (typeof gtag === 'function') {
                                 gtag('event', 'page_view', {
